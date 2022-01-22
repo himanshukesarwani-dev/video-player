@@ -15,6 +15,16 @@ function togglerVideoStatus(){
  }
 }
 
+// update play/pause icon
+function updatePlayIcon(){
+    return true
+}
+
+// update progress and timestamp
+function updateProgress(){
+
+}
+
 
 
 
