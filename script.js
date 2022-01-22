@@ -5,6 +5,17 @@ const progress = document.getElementById('progress');
 const timestamp = document.getElementById('timestamp');
 
 
+// Play and pause function
+function togglerVideoStatus(){
+ if(video.paused){
+     video.play();
+ }
+ else {
+     video.pause();
+ }
+}
+
+
 
 
 
@@ -20,7 +31,7 @@ video.addEventListener('timeupdate', updateProgress);
 
 
 
-play.addEventListener('click', toggleVideoStatus);
+play.addEventListener('click', togglerVideoStatus);
 
 stopBtn.addEventListener('click', stopVideo);
 
